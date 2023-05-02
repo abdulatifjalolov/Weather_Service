@@ -9,8 +9,9 @@ Used technologies:
   5.swagger-UI
   6.validation
   7.Oauth Resourse Server
-  8.RSA algorithm
-  9.auditing
+  8.Refresh and Accerss tokens
+  9.RSA algorithm
+  10.auditing
   
 Installation:
   1.Get docker-compose.yml file from application

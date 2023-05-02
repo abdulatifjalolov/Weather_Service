@@ -1,0 +1,30 @@
+access-token:
+  private: "access-refresh-token-keys/access-token-private.key"
+  public: "access-refresh-token-keys/access-token-public.key"
+refresh-token:
+  private: "access-refresh-token-keys/refresh-token-private.key"
+  public: "access-refresh-token-keys/refresh-token-public.key"
+#spring:
+#    jpa:
+#      database: POSTGRESQL
+#      hibernate.ddl-auto: create
+#      show-sql: true
+#    datasource:
+#      driverClassName: org.postgresql.Driver
+#      url: jdbc:postgresql://localhost:5432/postgres
+#      username: postgres
+#      password: abdulatif032200
+
+spring.datasource:
+  url: jdbc:postgresql://localhost:5432/mydatabase
+  username: myuser
+  password: mypassword
+spring.jpa:
+  hibernate.ddl-auto: create
+  defer-datasource-initialization: true
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+
+server:
+  port: 8080
